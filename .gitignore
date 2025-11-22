@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- My Custom Additions ---
+
+# Ignore test data so I don't upload copyright PDFs or large files
+*.pdf
+*.txt
+*.docx
+
+# Ignore Mac/Windows system files (keeps the repo clean)
+.DS_Store
+Thumbs.db
+
+# If you use VS Code, it's usually better to ignore the settings folder
+.vscode/
