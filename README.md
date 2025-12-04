@@ -50,29 +50,31 @@ Unlike general-purpose chatbots, this system utilizes **Retrieval-Augmented Gene
 1. Clone the Repository
 
 2. Create a Virtual Environment
-
+```bash
 python -m venv medienv
-Activate the environment:
+```
+- Activate the environment:
 
 3. Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 5. Setup Environment Variables
 
-Create a .env file in the root directory and add your keys:
-
+- Create a .env file in the root directory and add your keys:
+```bash
 PINECONE_API_KEY=your_pinecone_api_key
 OPENAI_API_KEY=your_openai_api_key
+```
 
 5. Ingest Data (Run Once)
 
 This script loads the PDF, chunks it, creates embeddings, and uploads them to Pinecone.
-
+```bash
 python store_index.py
-
+```
 6. Run the Application
-
+```bash
 python app.py
-
+```
 Open your browser and go to: http://localhost:8080
