@@ -46,6 +46,10 @@ Unlike general-purpose chatbots, this system utilizes **Retrieval-Augmented Gene
 ├── requirements.txt     # Python dependencies
 └── .env                 # API Keys (Not uploaded to GitHub)
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> b9e92bd (readme updated)
 💻 Local Installation & Setup
 1. Clone the Repository
 
