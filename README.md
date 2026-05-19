@@ -1,4 +1,4 @@
-# 🩺 Medical Chatbot using RAG (Retrieval-Augmented Generation)
+# Medical Chatbot using RAG (Retrieval-Augmented Generation)
 
 A specialized AI chatbot designed to provide accurate medical information based on **"The Gale Encyclopedia of Medicine (2nd Edition)"**. 
 
@@ -6,7 +6,7 @@ Unlike general-purpose chatbots, this system utilizes **Retrieval-Augmented Gene
 
 ---
 
-## 🚀 Features
+## Features
 - **RAG Architecture:** Retrieves relevant context from a trusted medical encyclopedia before generating answers.
 - **Vector Search:** Uses **Pinecone (Serverless)** for fast and efficient semantic search.
 - **LLM Integration:** Powered by **OpenAI GPT-4o** (via LangChain) for natural language understanding.
@@ -15,7 +15,7 @@ Unlike general-purpose chatbots, this system utilizes **Retrieval-Augmented Gene
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -29,7 +29,7 @@ Unlike general-purpose chatbots, this system utilizes **Retrieval-Augmented Gene
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 ├── .github/workflows/   # CI/CD Pipeline (cicd.yaml)
@@ -46,7 +46,7 @@ Unlike general-purpose chatbots, this system utilizes **Retrieval-Augmented Gene
 ├── requirements.txt     # Python dependencies
 └── .env                 # API Keys (Not uploaded to GitHub)
 ```
-💻 Local Installation & Setup
+Local Installation & Setup
 1. Clone the Repository
 
 2. Create a Virtual Environment
